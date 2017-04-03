@@ -1,0 +1,226 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491169933275" stop="1491169939968">
+  <name>get.test_user</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491169933275" status="passed" stop="1491169933659">
+      <description>
+            :get: инстанс requests
+            :tid: id для подстановки в url
+        </description>
+      <name>TestSingleUser.test_not_found_for_digit[-1]</name>
+      <attachments>
+        <attachment source="e1e3582d-113d-465f-b683-84c65c6f4bea-attachment.txt" title="Single user not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169933660" status="passed" stop="1491169934219">
+      <description>
+            :get: инстанс requests
+            :tid: id для подстановки в url
+        </description>
+      <name>TestSingleUser.test_not_found_for_digit[0]</name>
+      <attachments>
+        <attachment source="a2a6d90a-a99a-4958-8491-2aeb3d7830d1-attachment.txt" title="Single user not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169934220" status="passed" stop="1491169934618">
+      <description>
+            :get: инстанс requests
+            :tid: id для подстановки в url
+        </description>
+      <name>TestSingleUser.test_not_found_for_digit[100]</name>
+      <attachments>
+        <attachment source="3a27b81e-637c-4daa-b93b-b2001fa3cfbb-attachment.txt" title="Single user not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169934619" status="passed" stop="1491169935025">
+      <name>TestSingleUser.test_not_found_for_string[foo]</name>
+      <attachments>
+        <attachment source="886446c4-4bc1-4204-ac65-2e99c04f4a19-attachment.txt" title="Single user not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169935026" status="passed" stop="1491169935619">
+      <name>TestSingleUser.test_not_found_for_string[bar]</name>
+      <attachments>
+        <attachment source="29edf4f7-ca20-46f1-b0c3-0fa8aadd0b86-attachment.txt" title="Single user not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169935620" status="passed" stop="1491169936022">
+      <name>TestSingleUser.test_found[1]</name>
+      <attachments>
+        <attachment source="63adfefc-96dd-4b1a-9027-207a4a564e83-attachment.txt" title="Single user found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169936023" status="passed" stop="1491169936406">
+      <name>TestSingleUser.test_found[12]</name>
+      <attachments>
+        <attachment source="88ef51ed-d44a-4232-9fa6-bd49a677e26f-attachment.txt" title="Single user found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169936407" status="passed" stop="1491169936813">
+      <description>
+            :get: инстанс requests
+            :page: page для подстановки в url
+        </description>
+      <name>TestListUser.test_list_found_page_for_digit[-1]</name>
+      <attachments>
+        <attachment source="72f3a4b0-85c6-44a5-958f-4ff5132d7c50-attachment.txt" title="List users found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169936813" status="passed" stop="1491169937204">
+      <description>
+            :get: инстанс requests
+            :page: page для подстановки в url
+        </description>
+      <name>TestListUser.test_list_found_page_for_digit[0]</name>
+      <attachments>
+        <attachment source="8287e7ce-dfc7-4c85-91d8-f639f34a1794-attachment.txt" title="List users found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169937204" status="passed" stop="1491169937597">
+      <description>
+            :get: инстанс requests
+            :page: page для подстановки в url
+        </description>
+      <name>TestListUser.test_list_found_page_for_digit[2]</name>
+      <attachments>
+        <attachment source="274ec7c4-6480-4ef9-bf73-43625bbfae35-attachment.txt" title="List users found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169937598" status="passed" stop="1491169937992">
+      <description>
+            :get: инстанс requests
+            :page: page для подстановки в url
+        </description>
+      <name>TestListUser.test_list_found_page_for_digit[4]</name>
+      <attachments>
+        <attachment source="bd7fef31-0112-4e3f-b8f4-0fa39615d54a-attachment.txt" title="List users found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169937993" status="passed" stop="1491169938382">
+      <name>TestListUser.test_list_found_page_for_string[foo]</name>
+      <attachments>
+        <attachment source="4ca98381-98e7-4c19-855c-9d54849f5306-attachment.txt" title="List users found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169938382" status="passed" stop="1491169938771">
+      <name>TestListUser.test_list_found_page_for_string[bar]</name>
+      <attachments>
+        <attachment source="deeb1a8a-f47b-4dd3-a4a8-e9f1208338c9-attachment.txt" title="List users found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169938772" status="passed" stop="1491169939172">
+      <name>TestListUser.test_list_found_page_not_param</name>
+      <attachments>
+        <attachment source="64fc9038-f335-49da-976e-5ce8cdf4ddbd-attachment.txt" title="List users found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169939173" status="passed" stop="1491169939578">
+      <name>TestListUser.test_list_not_found_data[10]</name>
+      <attachments>
+        <attachment source="f53aad0f-1f89-4412-8ef7-cc3ea1ef4ae5-attachment.txt" title="List users found (200) and not data" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169939578" status="passed" stop="1491169939968">
+      <name>TestListUser.test_list_not_found_data[10000]</name>
+      <attachments>
+        <attachment source="492ba1a0-2987-4856-9a0c-553d7858f223-attachment.txt" title="List users found (200) and not data" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,23 @@
+< GET /api/resource/12 HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< 
+
+> HTTP/1.1 200 OK
+> Date: Sun, 02 Apr 2017 19:55:42 GMT
+> Content-Type: application/json; charset=utf-8
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d2073774decc6fe22d71c78285f1da8f61491162942; expires=Mon, 02-Apr-18 19:55:42 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"4d-Bbp05uPgvujEGWmchAeNvw"
+> Server: cloudflare-nginx
+> CF-RAY: 349658e43cf976a2-ARN
+> Content-Encoding: gzip
+> 
+{"data":{"id":12,"name":"honeysuckle","year":2011,"pantone_value":"18-2120"}}

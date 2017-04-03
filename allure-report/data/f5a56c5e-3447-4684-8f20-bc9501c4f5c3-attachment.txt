@@ -1,0 +1,23 @@
+< GET /api/users?page=foo HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< 
+
+> HTTP/1.1 200 OK
+> Date: Sun, 02 Apr 2017 19:55:52 GMT
+> Content-Type: application/json; charset=utf-8
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Set-Cookie: __cfduid=dd9d79a577fa8530839ee03f2016fb0331491162951; expires=Mon, 02-Apr-18 19:55:51 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"1c2-Qec3C9CLZsmFBNRtVi/f8w"
+> Server: cloudflare-nginx
+> CF-RAY: 34965921aabe762a-ARN
+> Content-Encoding: gzip
+> 
+{"page":"foo","per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"first_name":"george","last_name":"bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},{"id":2,"first_name":"lucille","last_name":"bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},{"id":3,"first_name":"oscar","last_name":"bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"}]}

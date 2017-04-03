@@ -1,0 +1,47 @@
+{
+  "uid" : "d2ad0f56e81c5351",
+  "name" : "TestListUser.test_list_not_found_data[10]",
+  "title" : "Test list not found data [10]",
+  "time" : {
+    "start" : 1491162219899,
+    "stop" : 1491162219900,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Skipped: Not suitable with selected labels: ('severity', 'critical').",
+    "stackTrace" : ""
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "suite" : {
+    "uid" : "c8447cb355d77532",
+    "name" : "get.test_user",
+    "title" : "Test user"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "get.test_user"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "16310-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

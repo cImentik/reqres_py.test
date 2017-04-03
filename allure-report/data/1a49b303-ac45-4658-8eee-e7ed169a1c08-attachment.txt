@@ -1,0 +1,23 @@
+< GET /api/resource?page=10000 HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< 
+
+> HTTP/1.1 200 OK
+> Date: Sun, 02 Apr 2017 19:55:46 GMT
+> Content-Type: application/json; charset=utf-8
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d052a2ee5b81e20b83397b81124b85e811491162946; expires=Mon, 02-Apr-18 19:55:46 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"42-exMeNjF/XGx0yJtCdEOVzQ"
+> Server: cloudflare-nginx
+> CF-RAY: 349658fcf9bd75e8-ARN
+> Content-Encoding: gzip
+> 
+{"page":"10000","per_page":3,"total":12,"total_pages":4,"data":[]}

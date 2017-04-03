@@ -1,0 +1,50 @@
+{
+  "uid" : "4f79cc0dc3c2c0a1",
+  "name" : "TestConnect.test_check_connect",
+  "title" : "Test check connect",
+  "time" : {
+    "start" : 1491162209327,
+    "stop" : 1491162209974,
+    "duration" : 647
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "951c2456980c1972",
+    "name" : "conn.test_conn",
+    "title" : "Test conn"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Check connect",
+    "source" : "5033a1c6-4e87-4125-bb12-077f5011fe60-attachment.txt",
+    "type" : "text/plain",
+    "size" : 943,
+    "uid" : "9920aca6702d6c65"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "16310-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "conn.test_conn"
+  } ],
+  "parameters" : [ ]
+}

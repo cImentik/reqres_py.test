@@ -1,0 +1,23 @@
+< GET /api/resource?page=2 HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< 
+
+> HTTP/1.1 200 OK
+> Date: Sun, 02 Apr 2017 19:55:43 GMT
+> Content-Type: application/json; charset=utf-8
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d666e8cb3e3d09d289f082a24ce815b141491162943; expires=Mon, 02-Apr-18 19:55:43 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"107-GcLh17B3MroYdk+fq1A9sQ"
+> Server: cloudflare-nginx
+> CF-RAY: 349658ec6e5f769c-ARN
+> Content-Encoding: gzip
+> 
+{"page":"2","per_page":3,"total":12,"total_pages":4,"data":[{"id":4,"name":"aqua sky","year":2003,"pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"pantone_value":"15-5217"}]}

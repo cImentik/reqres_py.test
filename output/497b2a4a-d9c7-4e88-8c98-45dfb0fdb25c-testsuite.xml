@@ -1,0 +1,70 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491169913293" stop="1491169923193">
+  <name>conn.test_delayed</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491169913293" status="passed" stop="1491169913859">
+      <description>
+        :get: инстанс requests
+        :delay: delay для подстановки в url
+        </description>
+      <name>TestDelayed.test_delayed[params0]</name>
+      <attachments>
+        <attachment source="00da2e4d-8b1c-4d44-b4a5-4202e1bf702e-attachment.txt" title="Delayed" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169913860" status="passed" stop="1491169914439">
+      <description>
+        :get: инстанс requests
+        :delay: delay для подстановки в url
+        </description>
+      <name>TestDelayed.test_delayed[params1]</name>
+      <attachments>
+        <attachment source="61ff2f32-c032-4ed1-8a32-90cb43b25566-attachment.txt" title="Delayed" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169914441" status="passed" stop="1491169918016">
+      <description>
+        :get: инстанс requests
+        :delay: delay для подстановки в url
+        </description>
+      <name>TestDelayed.test_delayed[params2]</name>
+      <attachments>
+        <attachment source="219e5eed-a4fc-43c8-89b2-f42f720d2140-attachment.txt" title="Delayed" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169918016" status="passed" stop="1491169923193">
+      <description>
+            Параметр delay будет 6с и должно быть исключение
+            ReadTimeout от requests, timeout 5c
+            :get: инстанс requests
+            :delay: delay для подстановки в url
+        </description>
+      <name>TestDelayed.test_delayed_fail_readtimeout[params0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,23 @@
+< POST /api/login HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< Content-Length: 27
+< 
+< {"password": 2, "email": 1}
+> HTTP/1.1 200 OK
+> Date: Sun, 02 Apr 2017 19:55:58 GMT
+> Content-Type: application/json; charset=utf-8
+> Content-Length: 28
+> Connection: keep-alive
+> Set-Cookie: __cfduid=dc9a68aa6facaea79054487d3503c6db21491162958; expires=Mon, 02-Apr-18 19:55:58 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"1c-Bt6nbDKeGMgH49w49bi1bw"
+> Server: cloudflare-nginx
+> CF-RAY: 3496594c4dcb764e-ARN
+> 
+{"token":"QpwL5tke4Pnpja7X"}

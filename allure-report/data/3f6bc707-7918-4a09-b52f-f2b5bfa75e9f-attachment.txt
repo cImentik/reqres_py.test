@@ -1,0 +1,23 @@
+< POST /api/login HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< Content-Length: 33
+< 
+< {"password": null, "email": null}
+> HTTP/1.1 400 Bad Request
+> Date: Sun, 02 Apr 2017 19:55:59 GMT
+> Content-Type: application/json; charset=utf-8
+> Content-Length: 37
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d3021f41a9a5ea245827266fd3ad9277c1491162959; expires=Mon, 02-Apr-18 19:55:59 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"25-g2zwK8Aej8Xn4eWBBVBqAQ"
+> Server: cloudflare-nginx
+> CF-RAY: 349659516cc575c4-ARN
+> 
+{"error":"Missing email or username"}

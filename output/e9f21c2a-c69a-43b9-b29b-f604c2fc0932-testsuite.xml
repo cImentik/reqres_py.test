@@ -1,0 +1,94 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491169944702" stop="1491169946789">
+  <name>post.test_register</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491169944702" status="passed" stop="1491169945107">
+      <description>
+        Символьные и цифровые логины и пароли
+        :post: инстанс request
+        :data: входной набор
+        </description>
+      <name>TestRegister.test_success[data0]</name>
+      <attachments>
+        <attachment source="1185ffa3-5f4f-4d42-b96a-ec229c88794b-attachment.txt" title="Register success (200,201)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169945107" status="passed" stop="1491169945520">
+      <description>
+        Символьные и цифровые логины и пароли
+        :post: инстанс request
+        :data: входной набор
+        </description>
+      <name>TestRegister.test_success[data1]</name>
+      <attachments>
+        <attachment source="4cbe2088-df9c-42d7-8fb4-7dd19d1f5cc7-attachment.txt" title="Register success (200,201)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169945521" status="passed" stop="1491169945918">
+      <description>
+        Попытки с неполными или пуcтыми парами логин/пароль
+        :post: инстанс request
+        :data: входной набор
+        :error: ожидаемый ответ для каждого нового набора
+        </description>
+      <name>TestRegister.test_unsuccess[data0-Missing password]</name>
+      <attachments>
+        <attachment source="fda3191b-c362-4ada-90bb-9e284978f965-attachment.txt" title="Register unsuccess (400)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169945919" status="passed" stop="1491169946389">
+      <description>
+        Попытки с неполными или пуcтыми парами логин/пароль
+        :post: инстанс request
+        :data: входной набор
+        :error: ожидаемый ответ для каждого нового набора
+        </description>
+      <name>TestRegister.test_unsuccess[data1-Missing email or username]</name>
+      <attachments>
+        <attachment source="17307099-4f6b-4592-b2fa-587fcdff20b5-attachment.txt" title="Register unsuccess (400)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169946389" status="passed" stop="1491169946789">
+      <description>
+        Попытки с неполными или пуcтыми парами логин/пароль
+        :post: инстанс request
+        :data: входной набор
+        :error: ожидаемый ответ для каждого нового набора
+        </description>
+      <name>TestRegister.test_unsuccess[data2-Missing email or username]</name>
+      <attachments>
+        <attachment source="55702563-db08-40c8-9a93-63f07248c002-attachment.txt" title="Register unsuccess (400)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

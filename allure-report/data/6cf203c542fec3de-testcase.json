@@ -1,0 +1,50 @@
+{
+  "uid" : "6cf203c542fec3de",
+  "name" : "TestSingleResource.test_not_found_for_string[bar]",
+  "title" : "Test not found for string [bar]",
+  "time" : {
+    "start" : 1491169927858,
+    "stop" : 1491169928255,
+    "duration" : 397
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "94dc7a630639bac",
+    "name" : "get.test_resource",
+    "title" : "Test resource"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Single resource not found (404)",
+    "source" : "83384685-035f-4cf9-8458-2d296e8daf1a-attachment.txt",
+    "type" : "text/plain",
+    "size" : 668,
+    "uid" : "1d0e7b17843e7cb2"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "suite-name",
+    "value" : "get.test_resource"
+  } ],
+  "parameters" : [ ]
+}

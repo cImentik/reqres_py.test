@@ -1,0 +1,50 @@
+{
+  "uid" : "2b2600d6e4365f57",
+  "name" : "TestListUser.test_list_found_page_for_string[foo]",
+  "title" : "Test list found page for string [foo]",
+  "time" : {
+    "start" : 1491162951762,
+    "stop" : 1491162952212,
+    "duration" : 450
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "674d2e5e67e57781",
+    "name" : "get.test_user",
+    "title" : "Test user"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "List users found (200)",
+    "source" : "f5a56c5e-3447-4684-8f20-bc9501c4f5c3-attachment.txt",
+    "type" : "text/plain",
+    "size" : 1148,
+    "uid" : "4db43152f44f7e12"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "get.test_user"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "thread",
+    "value" : "16654-MainThread"
+  } ],
+  "parameters" : [ ]
+}

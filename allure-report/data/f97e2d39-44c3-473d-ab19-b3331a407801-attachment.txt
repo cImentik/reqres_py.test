@@ -1,0 +1,24 @@
+< PATCH /api/users/0 HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< Content-Length: 37
+< 
+< {"job": "leader", "name": "morpheus"}
+> HTTP/1.1 200 OK
+> Date: Sun, 02 Apr 2017 19:55:55 GMT
+> Content-Type: application/json; charset=utf-8
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d38ae24a9cde09cf11c80ee88806543441491162954; expires=Mon, 02-Apr-18 19:55:54 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"49-bDsMkL8AlLetuBSuyCvM3Q"
+> Server: cloudflare-nginx
+> CF-RAY: 34965932dd88768a-ARN
+> Content-Encoding: gzip
+> 
+{"job":"leader","name":"morpheus","updatedAt":"2017-04-02T19:55:55.728Z"}

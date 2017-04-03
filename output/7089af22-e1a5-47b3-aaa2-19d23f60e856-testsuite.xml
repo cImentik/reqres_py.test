@@ -1,0 +1,92 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491169923194" stop="1491169925932">
+  <name>delete.test_delete</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491169923194" status="passed" stop="1491169923591">
+      <description>
+        :delete: инстанс requests
+        :data: входной набор
+        :tid: id для подстановки в url
+        </description>
+      <name>TestDelete.test_delete_success[-1-data0]</name>
+      <attachments>
+        <attachment source="31369bfe-8997-4b68-9134-eee34219ab27-attachment.txt" title="Delete  item (204)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169923592" status="passed" stop="1491169924149">
+      <description>
+        :delete: инстанс requests
+        :data: входной набор
+        :tid: id для подстановки в url
+        </description>
+      <name>TestDelete.test_delete_success[0-data0]</name>
+      <attachments>
+        <attachment source="c6dae574-2d25-40ee-a29b-369100b1172d-attachment.txt" title="Delete  item (204)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169924150" status="passed" stop="1491169924558">
+      <description>
+        :delete: инстанс requests
+        :data: входной набор
+        :tid: id для подстановки в url
+        </description>
+      <name>TestDelete.test_delete_success[10-data0]</name>
+      <attachments>
+        <attachment source="454ff7d0-1aa7-4ac7-9928-ea684736b580-attachment.txt" title="Delete  item (204)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169924559" status="passed" stop="1491169925516">
+      <description>
+        :delete: инстанс requests
+        :data: входной набор
+        :tid: id для подстановки в url
+        </description>
+      <name>TestDelete.test_delete_success[100-data0]</name>
+      <attachments>
+        <attachment source="19351664-d0b4-4969-ba48-d9188dd870cf-attachment.txt" title="Delete  item (204)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169925517" status="passed" stop="1491169925932">
+      <description>
+        Без подстановки id в url
+
+        :delete: инстанс requests
+        :data: входной набор
+        </description>
+      <name>TestDelete.test_delete_success_not_id[data0]</name>
+      <attachments>
+        <attachment source="960b27cc-feaa-4d4d-84b7-1fcd25f65bf0-attachment.txt" title="Delete  item (204)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

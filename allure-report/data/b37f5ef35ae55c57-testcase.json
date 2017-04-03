@@ -1,0 +1,50 @@
+{
+  "uid" : "b37f5ef35ae55c57",
+  "name" : "TestRegister.test_success[data1]",
+  "title" : "Test success [data1]",
+  "time" : {
+    "start" : 1491162219914,
+    "stop" : 1491162219915,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Skipped: Not suitable with selected labels: ('severity', 'critical').",
+    "stackTrace" : ""
+  },
+  "description" : {
+    "value" : "\n        Символьные и цифровые логины и пароли\n        :post: инстанс request\n        :data: входной набор\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "suite" : {
+    "uid" : "e27a0f66b4a67bde",
+    "name" : "post.test_register",
+    "title" : "Test register"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "post.test_register"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "16310-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "4a55da5024549236",
+  "name" : "TestListResource.test_list_found_page_for_string[bar]",
+  "title" : "Test list found page for string [bar]",
+  "time" : {
+    "start" : 1491169931474,
+    "stop" : 1491169932098,
+    "duration" : 624
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "94dc7a630639bac",
+    "name" : "get.test_resource",
+    "title" : "Test resource"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "List resource found (200)",
+    "source" : "5f61df80-fb9b-4fb0-a6e1-55b0069e0fc1-attachment.txt",
+    "type" : "text/plain",
+    "size" : 963,
+    "uid" : "13c0c4b67560e753"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "suite-name",
+    "value" : "get.test_resource"
+  } ],
+  "parameters" : [ ]
+}

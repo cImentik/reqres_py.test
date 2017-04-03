@@ -1,0 +1,53 @@
+{
+  "uid" : "99d8e957e983d270",
+  "name" : "TestSingleResource.test_not_found_for_digit[0]",
+  "title" : "Test not found for digit [0]",
+  "time" : {
+    "start" : 1491162935899,
+    "stop" : 1491162937250,
+    "duration" : 1351
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n            :get: инстанс requests\n            :tid: id для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a447aadd5569e093",
+    "name" : "get.test_resource",
+    "title" : "Test resource"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Single resource not found (404)",
+    "source" : "95410670-cc01-4fa1-90a0-4ed697508234-attachment.txt",
+    "type" : "text/plain",
+    "size" : 666,
+    "uid" : "ad75164986e7b811"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "thread",
+    "value" : "16654-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "get.test_resource"
+  } ],
+  "parameters" : [ ]
+}

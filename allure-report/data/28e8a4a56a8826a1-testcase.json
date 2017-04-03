@@ -1,0 +1,53 @@
+{
+  "uid" : "28e8a4a56a8826a1",
+  "name" : "TestUpdate.test_update_success[-1-data0]",
+  "title" : "Test update success [-1-data0]",
+  "time" : {
+    "start" : 1491169939969,
+    "stop" : 1491169940356,
+    "duration" : 387
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        :patch: инстанс requests\n        :data: входной набор\n        :tid: id для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8d7f309fc609bc0f",
+    "name" : "patch.test_update",
+    "title" : "Test update"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Patch  item (200)",
+    "source" : "30a97162-05cd-4e21-af8f-1147f2cbde23-attachment.txt",
+    "type" : "text/plain",
+    "size" : 827,
+    "uid" : "9c832be7f8f005bc"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "patch.test_update"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,22 @@
+< GET /api/resource/100 HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< 
+
+> HTTP/1.1 404 Not Found
+> Date: Sun, 02 Apr 2017 19:55:39 GMT
+> Content-Type: application/json; charset=utf-8
+> Content-Length: 2
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d2dfd84aa3b15624a09c0a79f1b49e1f51491162937; expires=Mon, 02-Apr-18 19:55:37 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"2-mZFLkyvTelC5g8XnyQrpOw"
+> Server: cloudflare-nginx
+> CF-RAY: 349658c6ec7d761e-ARN
+> 
+{}

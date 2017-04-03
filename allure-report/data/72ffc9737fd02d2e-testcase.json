@@ -1,0 +1,50 @@
+{
+  "uid" : "72ffc9737fd02d2e",
+  "name" : "TestSingleUser.test_not_found_for_string[bar]",
+  "title" : "Test not found for string [bar]",
+  "time" : {
+    "start" : 1491169935026,
+    "stop" : 1491169935619,
+    "duration" : 593
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8f8fdd5b3f6a8bd4",
+    "name" : "get.test_user",
+    "title" : "Test user"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Single user not found (404)",
+    "source" : "29edf4f7-ca20-46f1-b0c3-0fa8aadd0b86-attachment.txt",
+    "type" : "text/plain",
+    "size" : 665,
+    "uid" : "ef127728f75ef4"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "get.test_user"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ]
+}

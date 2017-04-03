@@ -1,0 +1,50 @@
+{
+  "uid" : "d524355386b96410",
+  "name" : "TestDelete.test_update_success[0-data0]",
+  "title" : "Test update success [0-data0]",
+  "time" : {
+    "start" : 1491162219865,
+    "stop" : 1491162219865,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Skipped: Not suitable with selected labels: ('severity', 'critical').",
+    "stackTrace" : ""
+  },
+  "description" : {
+    "value" : "\n        :delete: инстанс requests\n        :data: входной набор\n        :tid: id для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "suite" : {
+    "uid" : "ce75c993b0043a4f",
+    "name" : "delete.test_delete",
+    "title" : "Test delete"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "delete.test_delete"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "16310-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

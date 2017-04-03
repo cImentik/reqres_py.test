@@ -1,0 +1,53 @@
+{
+  "uid" : "66b90dc9e80e17d8",
+  "name" : "TestListResource.test_list_found_page_for_digit[4]",
+  "title" : "Test list found page for digit [4]",
+  "time" : {
+    "start" : 1491162943627,
+    "stop" : 1491162944176,
+    "duration" : 549
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n            :get: инстанс requests\n            :page: page для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a447aadd5569e093",
+    "name" : "get.test_resource",
+    "title" : "Test resource"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "List resource found (200)",
+    "source" : "c0bed9b9-c0db-4bbd-8a8c-25ac44efadc7-attachment.txt",
+    "type" : "text/plain",
+    "size" : 960,
+    "uid" : "47c8d9e0ee7e6544"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "thread",
+    "value" : "16654-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "get.test_resource"
+  } ],
+  "parameters" : [ ]
+}

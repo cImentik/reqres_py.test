@@ -1,0 +1,53 @@
+{
+  "uid" : "51d94b92f6b2c8b5",
+  "name" : "TestDelayed.test_delayed[params0]",
+  "title" : "Test delayed [params0]",
+  "time" : {
+    "start" : 1491159970087,
+    "stop" : 1491159970655,
+    "duration" : 568
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        :get: инстанс requests\n        :delay: delay для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ad4a4f23589acf27",
+    "name" : "conn.test_delayed",
+    "title" : "Test delayed"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Delayed",
+    "source" : "4cdbc531-0ce9-4a59-a28f-eadc2501e43f-attachment.txt",
+    "type" : "text/plain",
+    "size" : 1144,
+    "uid" : "a87db675e3dbf819"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "15767-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "conn.test_delayed"
+  } ],
+  "parameters" : [ ]
+}

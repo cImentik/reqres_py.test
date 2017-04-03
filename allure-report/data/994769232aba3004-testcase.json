@@ -1,0 +1,50 @@
+{
+  "uid" : "994769232aba3004",
+  "name" : "TestRegister.test_unsuccess[data1-Missing email or username]",
+  "title" : "Test unsuccess [data1-Missing email or username]",
+  "time" : {
+    "start" : 1491162219916,
+    "stop" : 1491162219917,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Skipped: Not suitable with selected labels: ('severity', 'critical').",
+    "stackTrace" : ""
+  },
+  "description" : {
+    "value" : "\n        Попытки с неполными или пуcтыми парами логин/пароль\n        :post: инстанс request\n        :data: входной набор\n        :error: ожидаемый ответ для каждого нового набора\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "suite" : {
+    "uid" : "e27a0f66b4a67bde",
+    "name" : "post.test_register",
+    "title" : "Test register"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "post.test_register"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "16310-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

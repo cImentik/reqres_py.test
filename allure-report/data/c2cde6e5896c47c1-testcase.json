@@ -1,0 +1,53 @@
+{
+  "uid" : "c2cde6e5896c47c1",
+  "name" : "TestLogin.test_unsuccess[data0-Missing password]",
+  "title" : "Test unsuccess [data0-Missing password]",
+  "time" : {
+    "start" : 1491169943523,
+    "stop" : 1491169943917,
+    "duration" : 394
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        Попытки с неполными или пуcтыми парами логин/пароль\n        :post: инстанс request\n        :data: входной набор\n        :error: ожидаемый ответ для каждого нового набора\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "2b75cdea79c8ce1f",
+    "name" : "post.test_login",
+    "title" : "Test login"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Login unsuccess (400)",
+    "source" : "1cf1ec1f-e14d-4019-8876-052b527ef31e-attachment.txt",
+    "type" : "text/plain",
+    "size" : 741,
+    "uid" : "aaa6418bad3a0da6"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "post.test_login"
+  } ],
+  "parameters" : [ ]
+}

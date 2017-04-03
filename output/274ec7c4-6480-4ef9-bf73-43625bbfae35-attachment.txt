@@ -1,0 +1,23 @@
+< GET /api/users?page=2 HTTP/1.1
+< Host: reqres.in
+< Connection: keep-alive
+< Accept: text/plain
+< Accept-Encoding: gzip, deflate
+< User-Agent: Mozilla/5.0
+< Content-type: application/json
+< 
+
+> HTTP/1.1 200 OK
+> Date: Sun, 02 Apr 2017 21:52:17 GMT
+> Content-Type: application/json; charset=utf-8
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d4d4915967e5db0d86d89b0560619541e1491169937; expires=Mon, 02-Apr-18 21:52:17 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"1b8-uOMMnt0USc1fwfjz1WGjCA"
+> Server: cloudflare-nginx
+> CF-RAY: 349703acbd3576a2-ARN
+> Content-Encoding: gzip
+> 
+{"page":"2","per_page":3,"total":12,"total_pages":4,"data":[{"id":4,"first_name":"eve","last_name":"holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"first_name":"gob","last_name":"bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"first_name":"tracey","last_name":"bluth","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}]}

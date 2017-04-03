@@ -1,0 +1,53 @@
+{
+  "uid" : "60e5ab101155745d",
+  "name" : "TestUpdate.test_update_success[100-data0]",
+  "title" : "Test update success [100-data0]",
+  "time" : {
+    "start" : 1491162963435,
+    "stop" : 1491162963830,
+    "duration" : 395
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        :put: инстанс requests\n        :data: входной набор\n        :tid: id для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ab4ca62ce2bc1d06",
+    "name" : "put.test_update",
+    "title" : "Test update"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Update  item (200)",
+    "source" : "75fd26b6-a281-465e-82b5-3b233287fa6c-attachment.txt",
+    "type" : "text/plain",
+    "size" : 826,
+    "uid" : "42ae33feb18a59a4"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "put.test_update"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "16654-MainThread"
+  } ],
+  "parameters" : [ ]
+}

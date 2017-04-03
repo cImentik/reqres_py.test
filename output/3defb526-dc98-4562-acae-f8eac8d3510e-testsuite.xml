@@ -1,0 +1,226 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491169925933" stop="1491169933273">
+  <name>get.test_resource</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491169925933" status="passed" stop="1491169926502">
+      <description>
+            :get: инстанс requests
+            :tid: id для подстановки в url
+        </description>
+      <name>TestSingleResource.test_not_found_for_digit[-1]</name>
+      <attachments>
+        <attachment source="36cf5b02-726b-4496-af67-e85059209181-attachment.txt" title="Single resource not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169926503" status="passed" stop="1491169926896">
+      <description>
+            :get: инстанс requests
+            :tid: id для подстановки в url
+        </description>
+      <name>TestSingleResource.test_not_found_for_digit[0]</name>
+      <attachments>
+        <attachment source="2a1e94d1-0a1a-4393-9855-8e91ae58987a-attachment.txt" title="Single resource not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169926897" status="passed" stop="1491169927467">
+      <description>
+            :get: инстанс requests
+            :tid: id для подстановки в url
+        </description>
+      <name>TestSingleResource.test_not_found_for_digit[100]</name>
+      <attachments>
+        <attachment source="d4841dc9-649a-422c-bc2b-2c989935a360-attachment.txt" title="Single resource not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169927468" status="passed" stop="1491169927857">
+      <name>TestSingleResource.test_not_found_for_string[foo]</name>
+      <attachments>
+        <attachment source="c6d3cae6-f1fa-4810-ab01-64a0abaa710b-attachment.txt" title="Single resource not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169927858" status="passed" stop="1491169928255">
+      <name>TestSingleResource.test_not_found_for_string[bar]</name>
+      <attachments>
+        <attachment source="83384685-035f-4cf9-8458-2d296e8daf1a-attachment.txt" title="Single resource not found (404)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169928257" status="passed" stop="1491169928667">
+      <name>TestSingleResource.test_found[1]</name>
+      <attachments>
+        <attachment source="2d56b83e-ab2f-4fa8-adbc-900921767ba2-attachment.txt" title="Single resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169928668" status="passed" stop="1491169929076">
+      <name>TestSingleResource.test_found[12]</name>
+      <attachments>
+        <attachment source="75cdd1a9-efab-43b2-9dc2-1c38076c3932-attachment.txt" title="Single resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169929076" status="passed" stop="1491169929680">
+      <description>
+            :get: инстанс requests
+            :page: page для подстановки в url
+        </description>
+      <name>TestListResource.test_list_found_page_for_digit[-1]</name>
+      <attachments>
+        <attachment source="69338e2b-fbff-4d8f-9b44-d631af9ce1d5-attachment.txt" title="List resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169929683" status="passed" stop="1491169930073">
+      <description>
+            :get: инстанс requests
+            :page: page для подстановки в url
+        </description>
+      <name>TestListResource.test_list_found_page_for_digit[0]</name>
+      <attachments>
+        <attachment source="abfb2368-00c4-4cce-aac6-faa5b1a06320-attachment.txt" title="List resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169930074" status="passed" stop="1491169930503">
+      <description>
+            :get: инстанс requests
+            :page: page для подстановки в url
+        </description>
+      <name>TestListResource.test_list_found_page_for_digit[2]</name>
+      <attachments>
+        <attachment source="13844c0d-1b5c-4fb3-8556-594742e8dd78-attachment.txt" title="List resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169930504" status="passed" stop="1491169930891">
+      <description>
+            :get: инстанс requests
+            :page: page для подстановки в url
+        </description>
+      <name>TestListResource.test_list_found_page_for_digit[4]</name>
+      <attachments>
+        <attachment source="3245a2b6-86c5-41b7-9bff-1879ac2ebbb1-attachment.txt" title="List resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169930892" status="passed" stop="1491169931473">
+      <name>TestListResource.test_list_found_page_for_string[foo]</name>
+      <attachments>
+        <attachment source="3f83351f-ed80-47df-b3e5-f089adfaf305-attachment.txt" title="List resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169931474" status="passed" stop="1491169932098">
+      <name>TestListResource.test_list_found_page_for_string[bar]</name>
+      <attachments>
+        <attachment source="5f61df80-fb9b-4fb0-a6e1-55b0069e0fc1-attachment.txt" title="List resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169932099" status="passed" stop="1491169932491">
+      <name>TestListResource.test_list_found_page_not_param</name>
+      <attachments>
+        <attachment source="dd81f386-7dcd-43f3-9a3f-e0410b577ebd-attachment.txt" title="List resource found (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169932492" status="passed" stop="1491169932880">
+      <name>TestListResource.test_list_not_found_data[10]</name>
+      <attachments>
+        <attachment source="cb047927-9d1e-49ee-b7f5-f6b07a52ca33-attachment.txt" title="List resource found (200) and not data" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169932881" status="passed" stop="1491169933273">
+      <name>TestListResource.test_list_not_found_data[10000]</name>
+      <attachments>
+        <attachment source="21968c2e-0181-428e-b51f-cb4620802e0c-attachment.txt" title="List resource found (200) and not data" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

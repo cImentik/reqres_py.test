@@ -1,0 +1,53 @@
+{
+  "uid" : "92c5ce5e6f3f9529",
+  "name" : "TestRegister.test_success[data1]",
+  "title" : "Test success [data1]",
+  "time" : {
+    "start" : 1491169945107,
+    "stop" : 1491169945520,
+    "duration" : 413
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        Символьные и цифровые логины и пароли\n        :post: инстанс request\n        :data: входной набор\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eb329d1c28d5237c",
+    "name" : "post.test_register",
+    "title" : "Test register"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Register success (200,201)",
+    "source" : "4cbe2088-df9c-42d7-8fb4-7dd19d1f5cc7-attachment.txt",
+    "type" : "text/plain",
+    "size" : 742,
+    "uid" : "3dd61d542cdcd636"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "post.test_register"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

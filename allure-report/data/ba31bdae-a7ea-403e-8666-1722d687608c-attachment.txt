@@ -1,0 +1,23 @@
+< POST /api/users HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< Content-Length: 41
+< 
+< {"job": "villain", "name": "agent Smith"}
+> HTTP/1.1 201 Created
+> Date: Sun, 02 Apr 2017 19:55:57 GMT
+> Content-Type: application/json; charset=utf-8
+> Content-Length: 88
+> Connection: keep-alive
+> Set-Cookie: __cfduid=dfecceb266b06a7437c7226a9017597be1491162957; expires=Mon, 02-Apr-18 19:55:57 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"58-zZBagt+ZTGB4mVpBjFGvLQ"
+> Server: cloudflare-nginx
+> CF-RAY: 34965944cd3575ee-ARN
+> 
+{"job":"villain","name":"agent Smith","id":"397","createdAt":"2017-04-02T19:55:57.922Z"}

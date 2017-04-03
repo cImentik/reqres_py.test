@@ -1,0 +1,53 @@
+{
+  "uid" : "a2b51e5d5bf5a10",
+  "name" : "TestListUser.test_list_found_page_for_digit[-1]",
+  "title" : "Test list found page for digit [-1]",
+  "time" : {
+    "start" : 1491169936407,
+    "stop" : 1491169936813,
+    "duration" : 406
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n            :get: инстанс requests\n            :page: page для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8f8fdd5b3f6a8bd4",
+    "name" : "get.test_user",
+    "title" : "Test user"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "List users found (200)",
+    "source" : "72f3a4b0-85c6-44a5-958f-4ff5132d7c50-attachment.txt",
+    "type" : "text/plain",
+    "size" : 1146,
+    "uid" : "da4540625cdcb957"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "get.test_user"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ]
+}

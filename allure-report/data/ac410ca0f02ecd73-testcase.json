@@ -1,0 +1,53 @@
+{
+  "uid" : "ac410ca0f02ecd73",
+  "name" : "TestDelete.test_delete_success[100-data0]",
+  "title" : "Test delete success [100-data0]",
+  "time" : {
+    "start" : 1491169924559,
+    "stop" : 1491169925516,
+    "duration" : 957
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        :delete: инстанс requests\n        :data: входной набор\n        :tid: id для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "7fe95cffec5c3661",
+    "name" : "delete.test_delete",
+    "title" : "Test delete"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Delete  item (204)",
+    "source" : "19351664-d0b4-4969-ba48-d9188dd870cf-attachment.txt",
+    "type" : "text/plain",
+    "size" : 658,
+    "uid" : "bc742a096728f2aa"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "delete.test_delete"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

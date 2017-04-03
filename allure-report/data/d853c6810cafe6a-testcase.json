@@ -1,0 +1,50 @@
+{
+  "uid" : "d853c6810cafe6a",
+  "name" : "TestSingleResource.test_found[12]",
+  "title" : "Test found [12]",
+  "time" : {
+    "start" : 1491169928668,
+    "stop" : 1491169929076,
+    "duration" : 408
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "94dc7a630639bac",
+    "name" : "get.test_resource",
+    "title" : "Test resource"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Single resource found (200)",
+    "source" : "75cdd1a9-efab-43b2-9dc2-1c38076c3932-attachment.txt",
+    "type" : "text/plain",
+    "size" : 771,
+    "uid" : "57c2a11b96d01a4e"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "suite-name",
+    "value" : "get.test_resource"
+  } ],
+  "parameters" : [ ]
+}

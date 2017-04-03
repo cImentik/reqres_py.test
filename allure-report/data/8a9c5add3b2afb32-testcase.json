@@ -1,0 +1,53 @@
+{
+  "uid" : "8a9c5add3b2afb32",
+  "name" : "TestSingleUser.test_not_found_for_digit[0]",
+  "title" : "Test not found for digit [0]",
+  "time" : {
+    "start" : 1491169933660,
+    "stop" : 1491169934219,
+    "duration" : 559
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n            :get: инстанс requests\n            :tid: id для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8f8fdd5b3f6a8bd4",
+    "name" : "get.test_user",
+    "title" : "Test user"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Single user not found (404)",
+    "source" : "a2a6d90a-a99a-4958-8491-2aeb3d7830d1-attachment.txt",
+    "type" : "text/plain",
+    "size" : 663,
+    "uid" : "a0c13aeef0353d3b"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "get.test_user"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ]
+}

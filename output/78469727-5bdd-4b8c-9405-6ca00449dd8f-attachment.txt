@@ -1,0 +1,23 @@
+< POST /api/users HTTP/1.1
+< Host: reqres.in
+< Connection: keep-alive
+< Accept: text/plain
+< Accept-Encoding: gzip, deflate
+< User-Agent: Mozilla/5.0
+< Content-type: application/json
+< Content-Length: 23
+< 
+< {"name": "", "job": ""}
+> HTTP/1.1 201 Created
+> Date: Sun, 02 Apr 2017 21:52:22 GMT
+> Content-Type: application/json; charset=utf-8
+> Content-Length: 70
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d3beaab98cb452ae497b63f1c049685101491169942; expires=Mon, 02-Apr-18 21:52:22 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"46-88BIitwMmS58CL08aJIRnw"
+> Server: cloudflare-nginx
+> CF-RAY: 349703cce9d37636-ARN
+> 
+{"name":"","job":"","id":"146","createdAt":"2017-04-02T21:52:22.697Z"}

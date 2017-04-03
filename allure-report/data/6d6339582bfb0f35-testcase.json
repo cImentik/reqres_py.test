@@ -1,0 +1,53 @@
+{
+  "uid" : "6d6339582bfb0f35",
+  "name" : "TestLogin.test_unsuccess[data1-Missing email or username]",
+  "title" : "Test unsuccess [data1-Missing email or username]",
+  "time" : {
+    "start" : 1491162959384,
+    "stop" : 1491162959958,
+    "duration" : 574
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        Попытки с неполными или пуcтыми парами логин/пароль\n        :post: инстанс request\n        :data: входной набор\n        :error: ожидаемый ответ для каждого нового набора\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "71d7109e0428fcad",
+    "name" : "post.test_login",
+    "title" : "Test login"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Login unsuccess (400)",
+    "source" : "3f6bc707-7918-4a09-b52f-f2b5bfa75e9f-attachment.txt",
+    "type" : "text/plain",
+    "size" : 758,
+    "uid" : "ffc844669bc3e98a"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "16654-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "post.test_login"
+  } ],
+  "parameters" : [ ]
+}

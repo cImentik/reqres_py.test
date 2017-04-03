@@ -1,0 +1,53 @@
+{
+  "uid" : "181ced2f087b2035",
+  "name" : "TestUpdate.test_update_success_not_id[data0]",
+  "title" : "Test update success not id [data0]",
+  "time" : {
+    "start" : 1491169948432,
+    "stop" : 1491169948821,
+    "duration" : 389
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        Без подстановки id в url\n        :put: инстанс requests\n        :data: входной набор\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "536c5882e84e1772",
+    "name" : "put.test_update",
+    "title" : "Test update"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Put  item (200)",
+    "source" : "688ae02c-7b13-48b3-a104-ed2d5f4bab0c-attachment.txt",
+    "type" : "text/plain",
+    "size" : 822,
+    "uid" : "ec9a194561a8096a"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "put.test_update"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

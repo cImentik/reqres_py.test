@@ -1,0 +1,50 @@
+{
+  "uid" : "2a76f7787aa2d397",
+  "name" : "TestSingleUser.test_found[1]",
+  "title" : "Test found [1]",
+  "time" : {
+    "start" : 1491162948807,
+    "stop" : 1491162949203,
+    "duration" : 396
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "674d2e5e67e57781",
+    "name" : "get.test_user",
+    "title" : "Test user"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Single user found (200)",
+    "source" : "7399bec4-13ee-4856-b0bd-0d03d2077f0c-attachment.txt",
+    "type" : "text/plain",
+    "size" : 826,
+    "uid" : "ae2fd679c880ba0c"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "get.test_user"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "thread",
+    "value" : "16654-MainThread"
+  } ],
+  "parameters" : [ ]
+}

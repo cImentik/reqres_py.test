@@ -1,0 +1,23 @@
+< GET /api/resource?page=bar HTTP/1.1
+< Host: reqres.in
+< Connection: keep-alive
+< Accept: text/plain
+< Accept-Encoding: gzip, deflate
+< User-Agent: Mozilla/5.0
+< Content-type: application/json
+< 
+
+> HTTP/1.1 200 OK
+> Date: Sun, 02 Apr 2017 21:52:12 GMT
+> Content-Type: application/json; charset=utf-8
+> Transfer-Encoding: chunked
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d805ebec650bac0317745d8fd67a7c4bc1491169931; expires=Mon, 02-Apr-18 21:52:11 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"106-phJ3MeHFFXBxfHE9snOlDg"
+> Server: cloudflare-nginx
+> CF-RAY: 34970388ebb5769c-ARN
+> Content-Encoding: gzip
+> 
+{"page":"bar","per_page":3,"total":12,"total_pages":4,"data":[{"id":1,"name":"cerulean","year":2000,"pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"pantone_value":"19-1664"}]}

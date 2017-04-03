@@ -1,0 +1,18 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491169912672" stop="1491169913292">
+  <name>conn.test_conn</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491169912672" status="passed" stop="1491169913292">
+      <name>TestConnect.test_check_connect</name>
+      <attachments>
+        <attachment source="15bd0abd-d164-40c6-816d-0c18f626f4d8-attachment.txt" title="Check connect" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

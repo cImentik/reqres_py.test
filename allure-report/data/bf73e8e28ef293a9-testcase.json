@@ -1,0 +1,53 @@
+{
+  "uid" : "bf73e8e28ef293a9",
+  "name" : "TestCreate.test_create_success[data0]",
+  "title" : "Test create success [data0]",
+  "time" : {
+    "start" : 1491169941934,
+    "stop" : 1491169942347,
+    "duration" : 413
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        :post: инстанс request\n        :data: входной набор\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "aedc0ab27c81de76",
+    "name" : "post.test_create",
+    "title" : "Test create"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Create  user (201)",
+    "source" : "9b874e54-d26f-4281-8bd2-2c1c991d309e-attachment.txt",
+    "type" : "text/plain",
+    "size" : 804,
+    "uid" : "2ca27379b4059779"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "post.test_create"
+  }, {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "thread",
+    "value" : "18744-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

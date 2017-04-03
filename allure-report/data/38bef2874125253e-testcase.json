@@ -1,0 +1,47 @@
+{
+  "uid" : "38bef2874125253e",
+  "name" : "TestDelayed.test_delayed_fail_readtimeout[params0]",
+  "title" : "Test delayed fail readtimeout [params0]",
+  "time" : {
+    "start" : 1491159974889,
+    "stop" : 1491159980048,
+    "duration" : 5159
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n            Параметр delay будет 6с и должно быть исключение\n            ReadTimeout от requests, timeout 5c\n            :get: инстанс requests\n            :delay: delay для подстановки в url\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ad4a4f23589acf27",
+    "name" : "conn.test_delayed",
+    "title" : "Test delayed"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "15767-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "conn.test_delayed"
+  } ],
+  "parameters" : [ ]
+}

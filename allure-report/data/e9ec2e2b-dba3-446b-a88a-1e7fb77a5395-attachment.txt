@@ -1,0 +1,20 @@
+< DELETE /api/users HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< Content-Length: 37
+< 
+< {"job": "leader", "name": "morpheus"}
+> HTTP/1.1 204 No Content
+> Date: Sun, 02 Apr 2017 19:55:35 GMT
+> Connection: keep-alive
+> Set-Cookie: __cfduid=dc4acfde7f820ae81bb6d3c254e361a681491162932; expires=Mon, 02-Apr-18 19:55:32 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"2-mZFLkyvTelC5g8XnyQrpOw"
+> Server: cloudflare-nginx
+> CF-RAY: 349658a688927678-ARN
+> 

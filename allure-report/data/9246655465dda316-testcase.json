@@ -1,0 +1,53 @@
+{
+  "uid" : "9246655465dda316",
+  "name" : "TestLogin.test_success[data0]",
+  "title" : "Test success [data0]",
+  "time" : {
+    "start" : 1491162957885,
+    "stop" : 1491162958589,
+    "duration" : 704
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n        Символьные и цифровые логины и пароли\n        :post: инстанс request\n        :data: входной набор\n        ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "71d7109e0428fcad",
+    "name" : "post.test_login",
+    "title" : "Test login"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Login success (200,201)",
+    "source" : "3cc01146-48a3-4b65-b7e2-f919fc39d826-attachment.txt",
+    "type" : "text/plain",
+    "size" : 758,
+    "uid" : "2dece9d6ba4daf75"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "dark"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "16654-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "post.test_login"
+  } ],
+  "parameters" : [ ]
+}

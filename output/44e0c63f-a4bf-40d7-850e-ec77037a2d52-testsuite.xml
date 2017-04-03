@@ -1,0 +1,91 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491169946789" stop="1491169948821">
+  <name>put.test_update</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491169946789" status="passed" stop="1491169947178">
+      <description>
+        :put: инстанс requests
+        :data: входной набор
+        :tid: id для подстановки в url
+        </description>
+      <name>TestUpdate.test_update_success[-1-data0]</name>
+      <attachments>
+        <attachment source="894b3a45-98e8-4534-b73b-4c8bdc16d3d7-attachment.txt" title="Put  item (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169947180" status="passed" stop="1491169947632">
+      <description>
+        :put: инстанс requests
+        :data: входной набор
+        :tid: id для подстановки в url
+        </description>
+      <name>TestUpdate.test_update_success[0-data0]</name>
+      <attachments>
+        <attachment source="4a35a623-718f-4cab-9e77-4a4f09a386ca-attachment.txt" title="Put  item (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169947633" status="passed" stop="1491169948024">
+      <description>
+        :put: инстанс requests
+        :data: входной набор
+        :tid: id для подстановки в url
+        </description>
+      <name>TestUpdate.test_update_success[10-data0]</name>
+      <attachments>
+        <attachment source="37117035-b3de-4543-ad41-15d227036d8b-attachment.txt" title="Put  item (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169948025" status="passed" stop="1491169948417">
+      <description>
+        :put: инстанс requests
+        :data: входной набор
+        :tid: id для подстановки в url
+        </description>
+      <name>TestUpdate.test_update_success[100-data0]</name>
+      <attachments>
+        <attachment source="867d34cf-5a0f-46b6-882d-c1e6b07a23f2-attachment.txt" title="Put  item (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491169948432" status="passed" stop="1491169948821">
+      <description>
+        Без подстановки id в url
+        :put: инстанс requests
+        :data: входной набор
+        </description>
+      <name>TestUpdate.test_update_success_not_id[data0]</name>
+      <attachments>
+        <attachment source="688ae02c-7b13-48b3-a104-ed2d5f4bab0c-attachment.txt" title="Put  item (200)" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18744-MainThread"/>
+        <label name="host" value="dark"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,23 @@
+< POST /api/login HTTP/1.1
+< Host: reqres.in
+< Accept: text/plain
+< Connection: keep-alive
+< User-Agent: Mozilla/5.0
+< Accept-Encoding: gzip, deflate
+< Content-type: application/json
+< Content-Length: 25
+< 
+< {"email": "peter@klaven"}
+> HTTP/1.1 400 Bad Request
+> Date: Sun, 02 Apr 2017 19:55:59 GMT
+> Content-Type: application/json; charset=utf-8
+> Content-Length: 28
+> Connection: keep-alive
+> Set-Cookie: __cfduid=d21e56b84749bab8f53d9e3b077270ef81491162959; expires=Mon, 02-Apr-18 19:55:59 GMT; path=/; domain=.reqres.in; HttpOnly
+> X-Powered-By: Express
+> Access-Control-Allow-Origin: *
+> ETag: W/"1c-+oPPYLByWa44rR3Y84j7RA"
+> Server: cloudflare-nginx
+> CF-RAY: 3496594ede16769c-ARN
+> 
+{"error":"Missing password"}
